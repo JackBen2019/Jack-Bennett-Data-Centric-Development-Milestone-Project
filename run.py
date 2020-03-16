@@ -15,9 +15,13 @@ def recipes():
 def shop():
     return render_template("/shop.html")
 
-@app.route("/blog")
-def blog():
-    return render_template("/blog.html")
+@app.route("/contact")
+def contact():
+    return render_template("/contact.html")
+
+@app.route("/upload-recipe")
+def uploadrecipe():
+    return render_template("/upload-recipe.html")
 
 if __name__ == "__main__":
     app.run(host=os.environ.get("IP"),
