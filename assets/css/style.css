@@ -1,0 +1,28 @@
+/* ------ General ------ */
+
+/* ------ Boostrap ------ */
+
+/* ------ Header ------ */
+
+/* ------ Headings ------ */
+
+/* ------ Navigation ------ */
+
+.menu-item {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    font-size: 17px;
+    font-weight: 400;
+    color: #000;
+}
+
+.menu-item:hover {
+    transform: scale(1.1);
+    transition: all .1s ease-in-out;
+}
+
+.nav-menu {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin: 0;
+}
