@@ -1,6 +1,6 @@
 # Jack Bennett Cookbook
 
-
+This website's sole purpose is to provide a platform for those looking to find thier next holiday destination.
 
 ## UX
 
@@ -32,6 +32,6 @@
 
 ## Credits
 
-The theme 
+The theme used is called **Agency** and you can access this theme from https://startbootstrap.com/themes/agency/.
 
 **Website created by Jack Bennett.**
