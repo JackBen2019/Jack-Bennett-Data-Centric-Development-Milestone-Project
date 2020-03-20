@@ -8,12 +8,12 @@
     <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}" type="text/css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" type="text/css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css">
-    <script src="assets/js/main.js"></script>
+    <script src="{{ url_for('static', filename='js/main.js') }}"></script>
     <script src="https://kit.fontawesome.com/f17309d9a5.js" crossorigin="anonymous"></script>
     <title>Jack Bennett's Cookbook</title>
 </head>
 
-<body>
+<body class="container-fluid">
 
   <header class="container-fluid">
         <div class="row">
@@ -26,20 +26,22 @@
                     </a>
                     <div class="collapse navbar-collapse" id="collapse_target">
                         <ul class="navbar-nav nav-menu mx-auto ml-auto">
-                            <li class="nav-item">
+                            <li style="padding-left: 10px;" class="nav-item">
                                 <a href="{{ url_for('index') }}" class="nav-link menu-item">Home</a>
                             </li>
-                            <li class="nav-item">
+                            <li style="padding-left: 10px;" class="nav-item">
                                 <a href="{{ url_for('recipes') }}" class="nav-link menu-item">Recipes</a>
                             </li>
-                            <li class="nav-item">
+                            <li style="padding-left: 10px;" class="nav-item">
                                 <a href="{{ url_for('shop') }}" class="nav-link menu-item">Shop</a>
                             </li>
-                            <li class="nav-item">
+                            <li style="padding-left: 10px;" class="nav-item">
                                 <a href="{{ url_for('contact') }}" class="nav-link menu-item">Contact</a>
                             </li>
-                            <li class="nav-item">
-                                <a href="{{ url_for('uploadrecipe') }}" class="nav-link menu-item">Upload Recipe</a>
+                            <li style="padding-left: 10px;">
+                            <form action="{{ url_for('uploadrecipe') }}">
+                            <button class="btn btn-outline-success" type="submit">Upload Recipe</button>
+                            </form>
                             </li>
                         </ul>
                     </div>
@@ -55,7 +57,7 @@
 
     <div style="height: 50px;" class="row copyright-section">
             <div class="col-8">
-                <p>2020 © JB Holidays.</p>
+                <p>2020 © JB's Cookbook.</p>
             </div>
             <div class="col-4">
                 <a href="">
