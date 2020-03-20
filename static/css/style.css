@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:100,200,300,400,500,600,700|Noto+Sans+JP:100,200,300,400,500,600,700&display=swap');
+
+body {
+    padding: 0;
+}
+
+/* ------ General ------ */
+
+
+
+/* ------ Font Awesome ------ */
+
+
+
+/* ------ Boostrap ------ */
+
+
+
+/* ------ Header ------ */
+
+.header-content {
+    padding-left: 0 !important;
+    background-color: #e7e7e7;
+    text-align: center;
+}
+
+/* ------ Headings ------ */
+
+
+
+/* ------ Navigation ------ */
+
+.website-logo {
+    padding-top: 5px;
+}
+
+.menu-item {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    font-size: 17px;
+    font-weight: 400;
+    color: #000;
+}
+
+.menu-item:hover {
+    transform: scale(1.1);
+    transition: all .1s ease-in-out;
+}
+
+.nav-menu {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin: 0;
+}
+
+@media screen and (max-width: 768px) {
+    .header-name {
+        padding-bottom: 10px;
+        margin: 0;
+    }
+
+    .navbar-expand-sm {
+        text-align: center;
+        padding: 5px;
+        margin: 0;
+    }
+
+    .ml-auto-mobile {
+        margin: 0;
+    }
+
+    .nav-menu {
+        padding-top: 5px;
+        padding-bottom: 0px;
+        margin: 0;
+    }
+
+}
+
+@media screen and (max-width: 720px) {
+    .website-logo {
+        text-align: center;
+    }
+}
+
+/* ------ Footer ------ */
+
+.footer-padding {
+    padding-top: 20px;
+}
+
+.social-media-footer {
+    text-align: center;
+    padding-top: 15px;
+}
+
+.reviews-footer {
+    text-align: center;
+    padding-top: 15px;
+    margin: 0 !important;
+}
+
+.trust-pilot-section {
+    background-color: #e7e7e7;
+    padding-bottom: 15px;
+}
+
+.trustpilot-logo {
+    width: 250px;
+    height: auto;
+}
+
+.trustpilot-five-stars {
+    width: 175px;
+    height: auto;
+    padding-top: 10px;
+}
+
+.trustpilot-header {
+    padding-top: 10px !important;
+    padding-bottom: 10px !important;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.copyright-section {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    background-color: #ffffff !important;
+}
+
+/* ------ Footer / Social Media ------ */
+
+.facebook-footer i {
+    font-size: 33px;
+}
+
+.twitter-footer i {
+    font-size: 33px;
+}
+
+.instagram-footer i {
+    font-size: 33px;
+}
+
+.pinterest-footer i {
+    font-size: 33px;
+}
+
+/* ------ Contact ------ */
+
+.btn-secondary {
+    background-color: #7cc2fd !important;
+}
+
+.center-form {
+    text-align: center;
+}
+
+button[type="submit"] {
+    margin-top: 15px;
+    margin-bottom: 20px;
+    color: #fafafa;
+    background-color: #e84610;
+}
+
+.contact {
+    padding-top: 15px;
+    background-color: #fff;
+    height: 380px;
+    color: #424242;
+}
+
+.contact div h3 {
+    text-align: center;
+    font-weight: 400;
+    font-family: "Roboto", sans-serif;
+}
+
+.contact-h6 {
+    color: #595959;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 15px;
+}
