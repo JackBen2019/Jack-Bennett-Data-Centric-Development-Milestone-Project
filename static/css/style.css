@@ -2,6 +2,12 @@
 
 body {
     padding: 0;
+    background-color: #f0f1eb;
+}
+
+.container-fluid {
+    padding-left: 0px !important;
+    padding-right: 0px !important;
 }
 
 /* ------ General ------ */
@@ -20,7 +26,7 @@ body {
 
 .header-content {
     padding-left: 0 !important;
-    background-color: #e7e7e7;
+    background-color: #333;
     text-align: center;
 }
 
@@ -51,7 +57,7 @@ button[type="submit"]:hover {
     padding-bottom: 12px;
     font-size: 17px;
     font-weight: 400;
-    color: #000;
+    color: #fff;
 }
 
 .menu-item:hover {
@@ -154,6 +160,7 @@ button[type="submit"]:hover {
 
 .footer-padding {
     padding-top: 20px;
+    paddingas
 }
 
 .social-media-footer {
@@ -161,33 +168,15 @@ button[type="submit"]:hover {
     padding-top: 15px;
 }
 
-.reviews-footer {
-    text-align: center;
-    padding-top: 15px;
-    margin: 0 !important;
+.jb-cookbook {
+    padding-left: 15px;
+    color: #fff;
 }
 
-.trust-pilot-section {
-    background-color: #e7e7e7;
-    padding-bottom: 15px;
-}
-
-.trustpilot-logo {
-    width: 250px;
-    height: auto;
-}
-
-.trustpilot-five-stars {
-    width: 175px;
-    height: auto;
-    padding-top: 10px;
-}
-
-.trustpilot-header {
-    padding-top: 10px !important;
-    padding-bottom: 10px !important;
-    font-size: 20px;
-    font-weight: 500;
+.contact-footer {
+    text-align: right;
+    padding-right: 15px;
+    color: #fff;
 }
 
 .copyright-section {
