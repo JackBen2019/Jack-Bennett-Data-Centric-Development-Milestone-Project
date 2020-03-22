@@ -1,8 +1,12 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway:100,200,300,400,500,600,700|Noto+Sans+JP:100,200,300,400,500,600,700&display=swap');
 
 body {
-    padding: 0;
+    padding: 0px;
     background-color: #f0f1eb;
+}
+
+a {
+    margin: 0 !important;
 }
 
 .container-fluid {
