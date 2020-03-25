@@ -52,6 +52,15 @@ a:hover {
     padding-bottom: 10px;
 }
 
+/* ------ Recipe of The Month ------ */
+
+.monthly-recipe-image {
+    padding-top: 65px;
+    padding-bottom: 65px;
+    text-align: center;
+    border-radius: 50%;
+}
+
 /* ------ Navigation ------ */
 
 button[type="submit"] {
