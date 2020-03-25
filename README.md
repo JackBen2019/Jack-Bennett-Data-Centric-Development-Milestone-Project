@@ -36,8 +36,8 @@ The **slideshow** design was inspired and assisted by W3 Schools: https://www.w3
 
 Recipe's used in the slideshow:
 
-1. http://joylovefood.com/vanilla-cupcakes-buttercream-frosting/
-2. https://www.food.com/recipe/the-best-belgian-waffles-63071
+1. http://joylovefood.com/vanilla-cupcakes-buttercream-frosting/ (Teal Icing Cupcakes)
+2. https://www.food.com/recipe/the-best-belgian-waffles-63071 (Blegian Waffles)
 3. 
 
 Images used in the slideshow:
@@ -45,5 +45,8 @@ Images used in the slideshow:
 1. https://unsplash.com/photos/pGM4sjt_BdQ (Teal Iced Cupcake Recipe)
 2. https://unsplash.com/photos/jh7OnQfP94o (Belgian Waffles)
 3. 
+
+Recipe of the month link: 
+Recipe of the month image: 
 
 **Website created by Jack Bennett.**

@@ -9,6 +9,10 @@ a {
     margin: 0 !important;
 }
 
+a:hover {
+    text-decoration: none !important;
+}
+
 .container-fluid {
     padding-left: 0px !important;
     padding-right: 0px !important;
@@ -42,7 +46,11 @@ a {
 
 /* ------ Headings ------ */
 
-
+.latest-recipes-heading {
+    margin: 0;
+    padding-top: 15px;
+    padding-bottom: 10px;
+}
 
 /* ------ Navigation ------ */
 
@@ -68,11 +76,6 @@ button[type="submit"]:hover {
     font-size: 17px;
     font-weight: 400;
     color: #fff;
-}
-
-.menu-item:hover {
-    transform: scale(1.1);
-    transition: all .1s ease-in-out;
 }
 
 .nav-menu {
@@ -168,14 +171,29 @@ button[type="submit"]:hover {
 
 /* ------ Footer ------ */
 
+@media screen and (max-width: 992px) {
+.footer-mobile {
+    height: 50px;
+    background-color: #2e2e2e !important;
+    text-align: center;
+}
+
+.contact-footer {
+    text-align: center !important;
+}
+}
+
 .footer-padding {
     padding-top: 20px;
-    paddingas
 }
 
 .social-media-footer {
     text-align: center;
     padding-top: 15px;
+}
+
+.download-section {
+    text-align: center;
 }
 
 .jb-cookbook {
@@ -184,15 +202,10 @@ button[type="submit"]:hover {
 }
 
 .contact-footer {
+    text-decoration: none;
     text-align: right;
     padding-right: 15px;
     color: #fff;
-}
-
-.copyright-section {
-    padding-top: 12px;
-    padding-bottom: 12px;
-    background-color: #ffffff !important;
 }
 
 /* ------ Footer / Social Media ------ */
