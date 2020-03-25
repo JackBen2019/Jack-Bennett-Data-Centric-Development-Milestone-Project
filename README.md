@@ -46,7 +46,13 @@ Images used in the slideshow:
 2. https://unsplash.com/photos/jh7OnQfP94o (Belgian Waffles)
 3. 
 
-Recipe of the month link: 
+Recipe of the month link: https://www.food.com/recipe/beths-melt-in-your-mouth-barbecue-ribs-oven-107786
 Recipe of the month image: 
+
+Images used in 'Cooking Knowledge' section:
+
+1. 
+2. 
+3. 
 
 **Website created by Jack Bennett.**
