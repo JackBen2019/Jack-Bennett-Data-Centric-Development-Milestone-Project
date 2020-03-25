@@ -61,6 +61,30 @@ a:hover {
     border-radius: 50%;
 }
 
+.monthly-recipe-image-src {
+    height: 400px;
+    width: 400px;
+    border-radius: 50%;
+}
+
+.monthly-recipe-heading {
+    text-align: left;
+    padding-bottom: 5px;
+}
+
+.recipe-name {
+    text-align: left;
+    margin: 0;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.monthly-recipe-description {
+    padding-top: 125px;
+    padding-bottom: 100px;
+    text-align: left;
+}
+
 /* ------ Navigation ------ */
 
 button[type="submit"] {
