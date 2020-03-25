@@ -74,8 +74,12 @@ button[type="submit"]:hover {
     padding-top: 12px;
     padding-bottom: 12px;
     font-size: 17px;
-    font-weight: 400;
+    font-weight: 500;
     color: #fff;
+}
+
+.menu-item:hover {
+    color: #bcbcc2;
 }
 
 .nav-menu {
@@ -181,6 +185,12 @@ button[type="submit"]:hover {
 .contact-footer {
     text-align: center !important;
 }
+
+.download-section {
+    padding-left: 15px;
+    text-align: center !important;
+}
+
 }
 
 .footer-padding {
@@ -193,11 +203,12 @@ button[type="submit"]:hover {
 }
 
 .download-section {
-    text-align: center;
+    padding-left: 15px;
+    text-align: left;
 }
 
 .jb-cookbook {
-    padding-left: 15px;
+    text-align: center;
     color: #fff;
 }
 
