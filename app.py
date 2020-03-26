@@ -1,7 +1,15 @@
 import os
 from flask import Flask, render_template
+from flask_pymongo import PyMongo
+from bson.objectid import ObjectId
+from os import path
+if path.exists("env.py"):
+  import env 
 
 app = Flask(__name__)
+
+app.config["MONGO_DBNAME"] = 'uploadedRecipes'
+app.config["MONGO_URI"] = 'mongodb+srv://root:Ch3ls34_12361@myfirstcluster-rhnnf.mongodb.net/uploadedRecipes?retryWrites=true&w=majority'
 
 @app.route("/")
 def index():
