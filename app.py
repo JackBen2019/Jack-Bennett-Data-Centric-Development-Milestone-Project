@@ -1,5 +1,5 @@
 import os
-from flask import Flask, render_template
+from flask import Flask, render_template, redirect, request, url_for
 from flask_pymongo import PyMongo
 from bson.objectid import ObjectId
 from os import path
@@ -9,6 +9,9 @@ if path.exists("env.py"):
 app = Flask(__name__)
 
 app.config["MONGO_DBNAME"] = 'uploadedRecipes'
+app.config["MONGO_URI"] = os.environ.get("MONGO_URI")
+
+mongo = PyMongo(app)
 
 @app.route("/")
 def index():
@@ -26,9 +29,9 @@ def shop():
 def contact():
     return render_template("/contact.html")
 
-@app.route("/upload-recipe")
+@app.route("/uploadrecipe")
 def uploadrecipe():
-    return render_template("/upload-recipe.html")
+    return render_template("/uploadrecipe.html", recipes=mongo.db.recipes.find())
 
 if __name__ == "__main__":
     app.run(host=os.environ.get("IP"),
