@@ -9,7 +9,6 @@ if path.exists("env.py"):
 app = Flask(__name__)
 
 app.config["MONGO_DBNAME"] = 'uploadedRecipes'
-app.config["MONGO_URI"] = 'mongodb+srv://root:Ch3ls34_12361@myfirstcluster-rhnnf.mongodb.net/uploadedRecipes?retryWrites=true&w=majority'
 
 @app.route("/")
 def index():
