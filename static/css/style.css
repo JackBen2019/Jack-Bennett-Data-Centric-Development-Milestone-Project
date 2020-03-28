@@ -52,6 +52,14 @@ a:hover {
     padding-bottom: 10px;
 }
 
+.cooking-knowledge-heading {
+    text-align: center;
+    margin-right: auto !important;
+    margin-left: auto !important;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
 /* ------ Recipe of The Month ------ */
 
 @media screen and (max-width: 992px) {
@@ -158,6 +166,14 @@ button[type="submit"]:hover {
     .website-logo {
         text-align: center;
     }
+}
+
+/* ------ Cooking Knowledge ------ */
+
+.cooking-knowledge-section {
+    text-align: center;
+    margin-right: auto !important;
+    margin-left: auto !important;
 }
 
 /* ------ Slideshow - Assisted by W3 Schools ------ */
