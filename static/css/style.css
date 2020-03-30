@@ -18,6 +18,10 @@ a:hover {
     padding-right: 0px !important;
 }
 
+p {
+    margin: 0 !important;
+}
+
 /* ------ General ------ */
 
 
