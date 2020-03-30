@@ -4,12 +4,12 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
 	<link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}" type="text/css">
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
 		type="text/css" />
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css">
-    <link rel="stylesheet"  href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
 	<script src="{{ url_for('static', filename='js/main.js') }}"></script>
 	<script src="https://kit.fontawesome.com/f17309d9a5.js" crossorigin="anonymous"></script>
 	<title>Jack Bennett's Cookbook</title>
@@ -33,7 +33,7 @@
 								<a href="{{ url_for('index') }}" class="nav-link menu-item">Home</a>
 							</li>
 							<li style="padding-left: 10px;" class="nav-item">
-								<a href="{{ url_for('recipes') }}" class="nav-link menu-item">Recipes</a>
+								<a href="{{ url_for('uploadrecipe') }}" class="nav-link menu-item">Recipes</a>
 							</li>
 							<li style="padding-left: 10px;" class="nav-item">
 								<a href="{{ url_for('shop') }}" class="nav-link menu-item">Shop</a>
@@ -42,7 +42,7 @@
 								<a href="{{ url_for('contact') }}" class="nav-link menu-item">Contact</a>
 							</li>
 							<li style="padding-left: 10px;">
-								<form action="{{ url_for('uploadrecipe') }}">
+								<form action="{{ url_for('recipes') }}">
 									<button class="btn btn-outline-success" type="submit">Upload Recipe</button>
 								</form>
 							</li>
@@ -118,6 +118,8 @@
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
 		integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
 	</script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
 
 </body>
 

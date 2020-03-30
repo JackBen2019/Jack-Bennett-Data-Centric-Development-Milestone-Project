@@ -1,6 +1,6 @@
 # Jack Bennett Cookbook
 
-This website's sole purpose is to provide a platform for those looking to find thier next holiday destination.
+This website's sole purpose is to provide a platform for those looking to find a new recipe to cook. It also allows people to upload their own recipes for others to use, as well as providing the reader with some handy cooking tips.
 
 ## UX
 
@@ -16,7 +16,11 @@ This website's sole purpose is to provide a platform for those looking to find t
 
 **Technologies Used**
 
-
+1. HTML5
+2. CSS3
+3. JavaScript
+4. Python3
+5. MySQL (MongoDB)
 
 ## Testing
 
@@ -28,9 +32,16 @@ This website's sole purpose is to provide a platform for those looking to find t
 
 ## Deployment
 
+This project was deployed to both GitHub and Heroku. See links to both below.
 
+Heroku: https://dashboard.heroku.com/apps/jb-cookbook
+GitHub: https://github.com/JackBen2019/Jack-Bennett-Data-Centric-Development-Milestone-Project
 
 ## Credits
+
+The **contact form** design was inspired and assisted by the contact form designed in the small 'Module 4' project which was completed in at earlier date.
+
+The **Upload a recipe form** was inspired and assisted by the mini project completed in 'Module 10'.
 
 The **slideshow** design was inspired and assisted by W3 Schools: https://www.w3schools.com/howto/howto_js_slideshow.asp.
 
