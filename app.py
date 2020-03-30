@@ -19,7 +19,7 @@ def index():
 
 @app.route("/recipes")
 def recipes():
-    return render_template("/recipes.html")
+    return render_template("/recipes.html", recipes=mongo.db.recipes.find())
 
 @app.route("/shop")
 def shop():
@@ -29,9 +29,9 @@ def shop():
 def contact():
     return render_template("/contact.html")
 
-@app.route("/uploadrecipe")
-def uploadrecipe():
-    return render_template("/uploadrecipe.html", recipes=mongo.db.recipes.find())
+@app.route("/upload")
+def upload():
+    return render_template("/upload.html", recipes=mongo.db.recipes.find())
 
 if __name__ == "__main__":
     app.run(host=os.environ.get("IP"),

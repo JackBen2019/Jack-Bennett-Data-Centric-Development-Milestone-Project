@@ -27,13 +27,13 @@
 				<nav class="navbar-expand-sm">
 					<a style="color: #fff; cursor: pointer" class="navbar-toggler" data-toggle="collapse"
 						data-target="#collapse_target">Menu</a>
-					<div class="collapse navbar-collapse" id="collapse_target">
-						<ul class="navbar-nav nav-menu mx-auto ml-auto">
+					<div style="border: 0px !important;" class="collapse navbar-collapse" id="collapse_target">
+						<ul style="border: 0px !important;" class="navbar-nav nav-menu mx-auto ml-auto">
 							<li style="padding-left: 10px;" class="nav-item">
 								<a href="{{ url_for('index') }}" class="nav-link menu-item">Home</a>
 							</li>
 							<li style="padding-left: 10px;" class="nav-item">
-								<a href="{{ url_for('uploadrecipe') }}" class="nav-link menu-item">Recipes</a>
+								<a href="{{ url_for('recipes') }}" class="nav-link menu-item">Recipes</a>
 							</li>
 							<li style="padding-left: 10px;" class="nav-item">
 								<a href="{{ url_for('shop') }}" class="nav-link menu-item">Shop</a>
@@ -42,7 +42,7 @@
 								<a href="{{ url_for('contact') }}" class="nav-link menu-item">Contact</a>
 							</li>
 							<li style="padding-left: 10px;">
-								<form action="{{ url_for('recipes') }}">
+								<form action="{{ url_for('upload') }}">
 									<button class="btn btn-outline-success" type="submit">Upload Recipe</button>
 								</form>
 							</li>
