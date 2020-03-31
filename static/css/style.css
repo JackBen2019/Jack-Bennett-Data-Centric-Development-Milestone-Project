@@ -24,7 +24,10 @@ p {
 
 /* ------ General ------ */
 
-
+.submit_form_button {
+    padding-top: 20px;
+    padding-left: 15px;
+}
 
 /* ------ Font Awesome ------ */
 

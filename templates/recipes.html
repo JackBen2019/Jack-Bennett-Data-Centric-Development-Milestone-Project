@@ -4,14 +4,16 @@
         {% for recipe in recipes %}
         <li style="list-style-type: none !important;">
             <div class="collapsible-header">
-
                 <div class=" task_header col s9">
                     <i class="material-icons">expand_more</i> <strong>{{recipe.recipe_name}}</strong>
                 </div>
             </div>
             <div class="collapsible-body">
                 <span>
-                    {{recipe.ingredients}}
+                    <strong>Recipe Name:</strong> {{recipe.ingredients}}<br>
+                    <strong>Recipe Category:</strong> {{recipe.categories}}<br>
+                    <strong>First Name:</strong> {{recipe.first_name}}<br>
+                    <strong>Last Name:</strong> {{recipe.last_name}}
                 </span>
             </div>
         </li>
