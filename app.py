@@ -31,7 +31,7 @@ def contact():
 
 @app.route("/upload")
 def upload():
-    return render_template("/upload.html", recipes=mongo.db.recipes.find())
+    return render_template("/upload.html", categories=mongo.db.categories.find())
 
 if __name__ == "__main__":
     app.run(host=os.environ.get("IP"),
