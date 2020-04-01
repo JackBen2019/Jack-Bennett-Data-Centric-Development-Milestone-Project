@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway:100,200,300,400,500,600,700|Noto+Sans+JP:100,200,300,400,500,600,700&display=swap');
 
+/* ------ General ------ */
+
 body {
     padding: 0px;
     background-color: #f0f1eb;
@@ -22,11 +24,13 @@ p {
     margin: 0 !important;
 }
 
-/* ------ General ------ */
+ul {
+    padding-left: 0px !important;
+    margin-bottom: 0 !important;
+}
 
-.submit_form_button {
-    padding-top: 20px;
-    padding-left: 15px;
+label {
+    margin-bottom: 11 !important;
 }
 
 /* ------ Font Awesome ------ */
@@ -39,9 +43,29 @@ p {
     text-align: center;
 }
 
-/* ------ Boostrap ------ */
+/* ------ Materialize ------ */
 
+.material-icons {
+    vertical-align: middle;
+}
 
+.container-materialize {
+    margin: 0 auto;
+    max-width: 1280px;
+    width: 90%;
+}
+
+@media only screen and (min-width: 601px) {
+  .container-materialize {
+    width: 85%;
+  }
+}
+
+@media only screen and (min-width: 993px) {
+  .container-materialize {
+    width: 70%;
+  }
+}
 
 /* ------ Header ------ */
 
@@ -66,6 +90,25 @@ p {
     margin-left: auto !important;
     padding-top: 10px;
     padding-bottom: 10px;
+}
+
+/* ------ Upload Recipe Form ------ */
+
+.submit_form_button {
+    padding-top: 20px;
+    padding-left: 15px;
+}
+
+.btn_small {
+    height: 24px;
+    width: 70px;
+    line-height: 24px;
+    margin: 5px 5px;
+    padding: 0 0.5em;
+}
+
+.task_header {
+    padding-top: 15px;
 }
 
 /* ------ Recipe of The Month ------ */

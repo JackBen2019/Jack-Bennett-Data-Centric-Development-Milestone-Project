@@ -21,9 +21,9 @@ def index():
 def recipes():
     return render_template("/recipes.html", recipes=mongo.db.recipes.find())
 
-@app.route("/shop")
-def shop():
-    return render_template("/shop.html")
+@app.route("/blog")
+def blog():
+    return render_template("/blog.html")
 
 @app.route("/contact")
 def contact():
@@ -38,6 +38,9 @@ def insert_recipe():
     recipes = mongo.db.recipes
     recipes.insert_one(request.form.to_dict())
     return redirect(url_for('recipes'))
+
+@app.route('/edit_recipe/<recipe_id>')
+def edit_recipe(recipe_id):
 
 if __name__ == "__main__":
     app.run(host=os.environ.get("IP"),
