@@ -19,11 +19,11 @@
 
 	<header class="container-fluid">
 		<div class="row">
-			<div class="col-md-5 header-content">
+			<div class="col-md-4 header-content">
 				<a href="#" class="navbar-brand website-logo"
 					target="_blank"><img alt="Jack Bennett's Cookbook Logo" class="website-logo" src="static/images/JB-Cookbook-Logo.png"></a>
 			</div>
-			<div class="col-md-7 header-content">
+			<div class="col-md-8 header-content">
 				<nav class="navbar-expand-sm">
 					<a style="color: #fff; cursor: pointer" class="navbar-toggler" data-toggle="collapse"
 						data-target="#collapse_target">Menu</a>
@@ -40,6 +40,9 @@
 							</li>
 							<li style="padding-left: 10px;" class="nav-item">
 								<a href="{{ url_for('contact') }}" class="nav-link menu-item">Contact</a>
+							</li>
+                            <li style="padding-left: 10px;" class="nav-item">
+								<a href="{{ url_for('yourrecipes') }}" class="nav-link menu-item">Your Recipes</a>
 							</li>
 							<li style="padding-left: 10px;">
 								<form action="{{ url_for('upload') }}">
@@ -94,7 +97,7 @@
 				<div class="download-section">
 					<p style="color: #fff;" class="inline-block">
 						Upload a recipe
-						<a style="color: #00ad4b;" href="jbcv_2019.pdf" target="_blank" class="cv-pdf">
+						<a style="color: #00ad4b;" href="{{ url_for('upload') }}" target="_blank" class="cv-pdf">
 							<i class="fa fa-download" aria-hidden="true"></i>
 							<span class="sr-only">Download link.</span>
 						</a>

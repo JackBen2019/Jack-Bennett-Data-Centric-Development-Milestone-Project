@@ -33,6 +33,45 @@ label {
     margin-bottom: 11 !important;
 }
 
+.front-hero {
+    height: auto;
+    width: 100%
+}
+
+.hero-text {
+  position: absolute;
+  padding-top: 50px;
+  bottom: 0px;
+  left: 16px;
+  background-color: #616060;
+  width: 100%;
+  height: 100px;
+}
+
+@media only screen and (max-width: 1190px) {
+.hero-text {
+  height: 75px;
+}
+}
+
+@media only screen and (max-width: 890px) {
+.hero-text {
+  height: 65px;
+}
+}
+
+@media only screen and (min-width: 775px) {
+.show {
+  display: none;
+}
+}
+
+@media only screen and (max-width: 775px) {
+.hide {
+  display: none;
+}
+}
+
 /* ------ Font Awesome ------ */
 
 .fab {
@@ -92,16 +131,83 @@ label {
     padding-bottom: 10px;
 }
 
+/* ------ Navigation ------ */
+
+button[type="submit"] {
+    margin: 0px !important;
+    color: #fafafa;
+    background-color: #08d10c !important;
+}
+
+.btn-outline-success {
+    color: #28a745;
+    border-color: #08d10c !important;
+}
+
+button[type="submit"]:hover {
+    color: #fafafa;
+    background-color: #00ad4b !important;
+}
+
+.menu-item {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    font-size: 17px;
+    font-weight: 300;
+    color: #fff;
+    padding-right: 0px !important;
+}
+
+.menu-item:hover {
+    color: #bcbcc2;
+}
+
+.nav-menu {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin: 0;
+}
+
+@media screen and (max-width: 768px) {
+    .header-name {
+        padding-bottom: 10px;
+        margin: 0;
+    }
+
+    .navbar-expand-sm {
+        text-align: center;
+        padding: 5px;
+        margin: 0;
+    }
+
+    .ml-auto-mobile {
+        margin: 0;
+    }
+
+    .nav-menu {
+        padding-top: 5px;
+        padding-bottom: 0px;
+        margin: 0;
+    }
+
+}
+
+@media screen and (max-width: 720px) {
+    .website-logo {
+        text-align: center;
+    }
+}
+
 /* ------ Upload Recipe Form ------ */
 
 .submit_form_button {
     padding-top: 20px;
-    padding-left: 15px;
+    padding-left: 10px;
 }
 
 .btn_small {
     height: 24px;
-    width: 70px;
+    width: 75px;
     line-height: 24px;
     margin: 5px 5px;
     padding: 0 0.5em;
@@ -151,72 +257,6 @@ label {
     padding-top: 125px;
     padding-bottom: 100px;
     text-align: left;
-}
-
-/* ------ Navigation ------ */
-
-button[type="submit"] {
-    margin: 0px !important;
-    color: #fafafa;
-    background-color: #08d10c !important;
-}
-
-.btn-outline-success {
-    color: #28a745;
-    border-color: #08d10c !important;
-}
-
-button[type="submit"]:hover {
-    color: #fafafa;
-    background-color: #00ad4b !important;
-}
-
-.menu-item {
-    padding-top: 12px;
-    padding-bottom: 12px;
-    font-size: 17px;
-    font-weight: 500;
-    color: #fff;
-}
-
-.menu-item:hover {
-    color: #bcbcc2;
-}
-
-.nav-menu {
-    padding-top: 15px;
-    padding-bottom: 15px;
-    margin: 0;
-}
-
-@media screen and (max-width: 768px) {
-    .header-name {
-        padding-bottom: 10px;
-        margin: 0;
-    }
-
-    .navbar-expand-sm {
-        text-align: center;
-        padding: 5px;
-        margin: 0;
-    }
-
-    .ml-auto-mobile {
-        margin: 0;
-    }
-
-    .nav-menu {
-        padding-top: 5px;
-        padding-bottom: 0px;
-        margin: 0;
-    }
-
-}
-
-@media screen and (max-width: 720px) {
-    .website-logo {
-        text-align: center;
-    }
 }
 
 /* ------ Cooking Knowledge ------ */

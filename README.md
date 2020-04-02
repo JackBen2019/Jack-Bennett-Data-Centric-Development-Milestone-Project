@@ -45,6 +45,8 @@ The **Upload a recipe form** was inspired and assisted by the mini project compl
 
 The **slideshow** design was inspired and assisted by W3 Schools: https://www.w3schools.com/howto/howto_js_slideshow.asp.
 
+The **pre-loaded** images JavaScript used was provided by https://www.webhostingsecretrevealed.net/blog/featured-articles/15-cool-javascript-sample-snippets/.
+
 Recipe's used in the slideshow:
 
 1. http://joylovefood.com/vanilla-cupcakes-buttercream-frosting/ (Teal Icing Cupcakes)
@@ -58,11 +60,11 @@ Images used in the slideshow:
 3. 
 
 Recipe of the month link: https://www.food.com/recipe/beths-melt-in-your-mouth-barbecue-ribs-oven-107786
-Recipe of the month image: 
+Recipe of the month image: https://www.freeimages.com/photo/bbq-ribs-1057470
 
 Images used in 'Cooking Knowledge' section:
 
-1. 
+1. https://unsplash.com/photos/c6J2thg8k04 (Fried Chicken)
 2. 
 3. 
 

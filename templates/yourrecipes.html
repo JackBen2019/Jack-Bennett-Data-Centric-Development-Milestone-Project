@@ -1,0 +1,27 @@
+{% extends 'base.html' %}
+{% block content %}
+<section class="container-materialize">
+	<ul class="collapsible" data-collapsible="accordion">
+		{% for recipe in recipes %}
+		<li style="list-style-type: none !important;">
+			<div class="collapsible-header">
+				<div class="col s3">
+					<i class="material-icons">expand_more</i>
+					<a href="{{url_for('delete_recipe', recipe_id=recipe._id)}}" style="background-color: #26a69a;" class="waves-effect waves-light btn btn_small">Delete</a>
+					<a href="{{url_for('edit_recipe', recipe_id=recipe._id)}}" class="waves-effect waves-light btn btn_small blue">Edit</a>
+
+				</div>
+				<div class="task_header col s9">
+					<strong>{{recipe.recipe_name}}</strong>
+				</div>
+			</div>
+			<div class="collapsible-body">
+				<span>
+                    <strong>Ingredients:</strong> {{recipe.ingredients}}<br>
+                </span>
+			</div>
+		</li>
+		{% endfor %}
+	</ul>
+</section>
+{% endblock %}
