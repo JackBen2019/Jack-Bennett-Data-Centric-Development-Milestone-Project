@@ -20,7 +20,7 @@ function showDivs(n) {
   dots[slideIndex-1].className += " slide-opacity-off";
 }
 
-// Pre-Loaded Image - Code assisted by Webhostingsecresrevelaed
+// Pre-Loaded Images - Code assisted by Webhostingsecresrevelaed
 
 var images = new Array();
 

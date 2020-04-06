@@ -33,19 +33,64 @@ label {
     margin-bottom: 11 !important;
 }
 
+img {
+    width: 100%;
+    height: auto;
+}
+
+h5 {
+    padding-top: 10px;
+    width: auto;
+    font-weight: 400 !important;
+    color: #000;
+    text-align: left;
+}
+
+.recipes-blog-hr {
+    margin-top: 0px !important;
+    margin-bottom: 20px !important;
+    margin-left: 15px !important;
+}
+
+/* ------ Image Hover Effects ------ */
+
+.image-contain {
+  position: relative;
+  width: 50%;
+}
+
+.image {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.image-contain:hover .image {
+  opacity: 0.6;
+}
+
+.image-contain:hover .middle {
+  opacity: 1;
+}
+
+/* ------ Hero Section ------ */
+
 .front-hero {
     height: auto;
     width: 100%
 }
 
 .hero-text {
-  position: absolute;
-  padding-top: 50px;
-  bottom: 0px;
-  left: 16px;
-  background-color: #616060;
+  padding-top: 18px;
+  padding-left: 30px;
+  font-size: 30px;
+  font-weight: 600;
+  background-color: #e0e0dc;
   width: 100%;
-  height: 100px;
+  height: 80px;
 }
 
 @media only screen and (max-width: 1190px) {
@@ -72,6 +117,13 @@ label {
 }
 }
 
+/* ------ Email Signup Section ------ */
+
+.email-signup {
+    height: 100px;
+    background-color: 
+}
+
 /* ------ Font Awesome ------ */
 
 .fab {
@@ -80,6 +132,30 @@ label {
 
 .fa-tags {
     text-align: center;
+}
+
+/* ------ Bootstrap ------ */
+
+@media (min-width: 992px) {
+.col-lg-2 {
+    max-width: 20% !important;
+    flex: 20% !important;
+}
+}
+
+@media (min-width: 525px) and (max-width: 992px) {
+.col-xs-4 {
+    flex: 0 0 33.333333% !important;
+    max-width: 33.333333% !important;
+}
+.col-xs-6 {
+    flex: 0 0 50% !important;
+    max-width: 50% !important;
+}
+}
+
+.col-md-8 {
+    padding-right: 0px !important;
 }
 
 /* ------ Materialize ------ */
@@ -123,12 +199,47 @@ label {
     padding-bottom: 10px;
 }
 
-.cooking-knowledge-heading {
+.cooking-knowledge-heading-container {
     text-align: center;
     margin-right: auto !important;
     margin-left: auto !important;
     padding-top: 10px;
     padding-bottom: 10px;
+}
+
+.cooking-knowledge-heading {
+    text-align: center;
+    font-weight: 200;
+    padding-top: 15px;
+}
+
+.cooking-tips-heading {
+    text-align: center;
+    font-weight: 400;
+    padding-top: 15px;
+}
+
+.recipes-heading-container {
+    text-align: left;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.recipes-heading {
+    text-align: left;
+    font-weight: 200;
+    padding-top: 15px;
+}
+
+.partner-recipes-heading {
+    text-align: center;
+    padding-top: 18px;
+    padding-left: 30px;
+    font-size: 30px;
+    font-weight: 600;
+    background-color: #e0e0dc;
+    width: 100%;
+    height: 80px;
 }
 
 /* ------ Navigation ------ */
