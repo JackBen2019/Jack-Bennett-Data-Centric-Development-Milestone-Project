@@ -1,25 +1,3 @@
-// Slideshow - Code assisted by W3 Schools
-
-function currentDiv(n) {
-  showDivs(slideIndex = n);
-}
-
-function showDivs(n) {
-  var i;
-  var x = document.getElementsByClassName("slideshow");
-  var dots = document.getElementsByClassName("slide");
-  if (n > x.length) {slideIndex = 1}
-  if (n < 1) {slideIndex = x.length}
-  for (i = 0; i < x.length; i++) {
-    x[i].style.display = "none";
-  }
-  for (i = 0; i < dots.length; i++) {
-    dots[i].className = dots[i].className.replace(" slide-opacity-off", "");
-  }
-  x[slideIndex-1].style.display = "block";
-  dots[slideIndex-1].className += " slide-opacity-off";
-}
-
 // Pre-Loaded Images - Code assisted by Webhostingsecresrevelaed
 
 var images = new Array();
@@ -32,3 +10,25 @@ function preloadImages(){
 }
 
 preloadImages("bbq-ribs.jpg", "belgian-waffles.jpg", "cook-for-family.jpg", "fried_chicken.jpg", "JB-Cookbook-Logo.png", "strawberries.jpg", "teal-icing-cupcake-recipe.jpg");
+
+// Search Bar - Code assisted by W3 Schools
+
+function searchBarFunction() {
+  document.getElementById("searchBarDropdown").classList.toggle("show");
+}
+
+function filterFunction() {
+  var input, filter, ul, li, a, i;
+  input = document.getElementById("searchBarInput");
+  filter = input.value.toUpperCase();
+  div = document.getElementById("searchBarDropdown");
+  a = div.getElementsByTagName("a");
+  for (i = 0; i < a.length; i++) {
+    txtValue = a[i].textContent || a[i].innerText;
+    if (txtValue.toUpperCase().indexOf(filter) > -1) {
+      a[i].style.display = "";
+    } else {
+      a[i].style.display = "none";
+    }
+  }
+}

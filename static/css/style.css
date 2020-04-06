@@ -120,8 +120,11 @@ h5 {
 /* ------ Email Signup Section ------ */
 
 .email-signup {
-    height: 100px;
-    background-color: 
+    text-align: center;
+    font-size: 30px;
+    font-weight: 100;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 
 /* ------ Font Awesome ------ */
@@ -376,6 +379,81 @@ button[type="submit"]:hover {
     text-align: center;
     margin-right: auto !important;
     margin-left: auto !important;
+}
+
+/* ------ Recipe Search Bar - Assisted by W3 Schools ------ */
+
+.dropbtn {
+    background-color: #4aadd0;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.dropbtn:hover,
+.dropbtn:focus {
+    background-color: #4aadd0;
+}
+
+#searchBarInput {
+    box-sizing: border-box;
+    font-size: 16px;
+    padding: 14px 20px 12px 45px;
+    border: none;
+    border-bottom: 1px solid #ddd;
+}
+
+#searchBarInput:focus {
+    outline: 3px solid #ddd;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f6f6f6;
+    min-width: 230px;
+    overflow: auto;
+    border: 1px solid #ddd;
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown a:hover {
+    background-color: #4aadd0;
+}
+
+.show {
+    display: block;
+}
+
+.dropdown-content {
+    text-align: center;
+    position: relative;
+}
+
+.dropdown-menu-item {
+    padding-left: 8px;
+    color: #000 !important;
+}
+
+@media screen and (max-width: 460px) {
+
+    .dropbtn {
+        font-size: 13px;
+    }
 }
 
 /* ------ Slideshow - Assisted by W3 Schools ------ */

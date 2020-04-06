@@ -47,25 +47,44 @@ The **slideshow** design was inspired and assisted by W3 Schools: https://www.w3
 
 The **pre-loaded** images JavaScript used was provided by https://www.webhostingsecretrevealed.net/blog/featured-articles/15-cool-javascript-sample-snippets/.
 
-Recipe's used in the slideshow:
+Links - Images used in the slideshow:
 
-1. http://joylovefood.com/vanilla-cupcakes-buttercream-frosting/ (Teal Icing Cupcakes)
-2. https://www.food.com/recipe/the-best-belgian-waffles-63071 (Blegian Waffles)
+1. Teal Icing Cupcakes: http://joylovefood.com/vanilla-cupcakes-buttercream-frosting/ - https://unsplash.com/photos/pGM4sjt_BdQ
+2. Blegian Waffles: https://www.food.com/recipe/the-best-belgian-waffles-63071 - https://unsplash.com/photos/jh7OnQfP94o
 3. 
 
-Images used in the slideshow:
+Recipe of the month link - image: https://www.food.com/recipe/beths-melt-in-your-mouth-barbecue-ribs-oven-107786 - https://www.freeimages.com/photo/bbq-ribs-1057470
 
-1. https://unsplash.com/photos/pGM4sjt_BdQ (Teal Iced Cupcake Recipe)
-2. https://unsplash.com/photos/jh7OnQfP94o (Belgian Waffles)
-3. 
-
-Recipe of the month link: https://www.food.com/recipe/beths-melt-in-your-mouth-barbecue-ribs-oven-107786
-Recipe of the month image: https://www.freeimages.com/photo/bbq-ribs-1057470
-
-Images used in 'Cooking Knowledge' section:
+Links - Images used in the 'Expanding Your Cooking Knowledge' and 'General Cooking Tips' section:
 
 1. https://unsplash.com/photos/c6J2thg8k04 (Fried Chicken)
 2. 
 3. 
+4. 
+5. 
+
+Links - Images used in the 'Try a New Recipe Today' and 'Recipes in Demand' section:
+
+1. 
+2. 
+3. 
+4. 
+5. 
+
+Links - Images used in the 'Tips For The Kitchen' section:
+
+1. https://unsplash.com/photos/c6J2thg8k04 (Fried Chicken)
+2. 
+3. 
+4. 
+5. 
+
+Links - Images used in the 'Vegetarian Recipes' section:
+
+1. 
+2. 
+3. 
+4. 
+5. 
 
 **Website created by Jack Bennett.**
