@@ -33,3 +33,27 @@ function filterFunction() {
     }
   }
 }
+
+// Countdown Clock - Code assisted by W3 Schools
+
+var countDownDate = new Date("May 5, 2020 23:59:59").getTime();
+
+var x = setInterval(function() {
+
+  var now = new Date().getTime();
+    
+  var distance = countDownDate - now;
+    
+  var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+  var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+  var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+  var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+    
+  document.getElementById("countdown-timer").innerHTML = days + "D -" + " " + hours + " " +  "H -"
+  + " " + minutes + "M -" + " " + seconds + "S";
+    
+  if (distance < 0) {
+    clearInterval(x);
+    document.getElementById("countdown-timer").innerHTML = "Offer has now finished!";
+  }
+}, 1000);
