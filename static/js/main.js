@@ -9,7 +9,8 @@ function preloadImages(){
     }
 }
 
-preloadImages("bbq-ribs.jpg", "belgian-waffles.jpg", "cook-for-family.jpg", "fried_chicken.jpg", "JB-Cookbook-Logo.png", "strawberries.jpg", "teal-icing-cupcake-recipe.jpg");
+preloadImages("JB-Cookbook-Logo.png", "banana_bread.jpg", "beautiful_cake.jpg", "best_selling_books.jpg", "bourbon_chicken.jpg", "caramel_apples.jpg", "cheesy_bagel.jpg", "chicken_pasta.jpg", "declutter_kitchen.jpg", "defrosted_meat.jpg", "falafel.jpg", "galley_kitchen.jpg", "garlic_pasta.jpg", "organise_kitchen.jpg", "overripe_bananas.jpg", "raisin_cookies.jpg", "sourdough_starter.jpg", 
+"stop_storing_fridge.jpg", "tofu_curry.jpg", "vegetable_stew.jpg", "xl-bbq-ribs.jpg", "yeast.jpg");
 
 // Search Bar - Code assisted by W3 Schools
 
