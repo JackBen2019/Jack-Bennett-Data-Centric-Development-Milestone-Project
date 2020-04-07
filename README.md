@@ -1,18 +1,30 @@
 # Jack Bennett Cookbook
 
-This website's sole purpose is to provide a platform for those looking to find a new recipe to cook. It also allows people to upload their own recipes for others to use, as well as providing the reader with some handy cooking tips.
+This website's sole purpose is to provide a platform for those looking to find a new recipe to cook and provide the reader with some helpful cooking tips. It also allows people to upload their own recipes, which can automatically be seen by anyone browsing the website.
 
 ## UX
 
+The target audience for this website is those who are interested in cooking, or want to learn more about it.
 
+I have ensured this website is user friendly for all users, regardless of their device. The webpages have been structured so that they will be responsive on any device that you choose to use.
+
+The wireframes for each page on this website have been added into the GitHib files.
 
 **User Stories**
 
+Speaking with some people who were already interested in cooking, I asked them what they would like for my website to provide them. They said:
 
+1. "As a visitor to a cooking website, I would expect to see a range of recipes that doesn't discriminate. I would expect the recipes to range from vegetarian, meat based and even some desert/snack type recipes."
+2. "I would expect recipes to be on the website, but as someone who is always looking to get better at cooking, I woudld also like to see some cooking advice/tips"
 
 ## Features
 
+There are a range of features available on my website that could assist the user in one way or another. These have been listed below:
 
+1. **Searh Bar** - A search bar with some pre-populated recipe options has been added to the 'Recipes' page.
+2. **Upload a Recipe Form** - A form which allows the user to upload a recipe, which is then added to a 'Community Recipes' page for all website users to see.
+3. **Contact Form** - A contact form has been added just above the footer so that people who want to get in contact have the option to do so.
+4. **Countdown Timer** - A countdown timer has been added to show people how long is left until the next recipe of the month.
 
 **Technologies Used**
 
