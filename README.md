@@ -81,10 +81,11 @@ Links - Images used in the 'Tips For The Kitchen' section:
 
 Links - Images used in the 'Vegetarian Recipes' section:
 
-1. 
-2. 
-3. 
-4. 
-5. 
+1. Butterbean and Vegetable Stew: https://www.deliciousmagazine.co.uk/recipes/butterbean-and-vegetable-stew/ - https://unsplash.com/photos/XoByiBymX20
+2. Baked Falafel in Tomato Sauce: https://www.deliciousmagazine.co.uk/recipes/baked-falafel-tomato-sauce/ - https://pixabay.com/photos/falafel-dough-balls-chickpeas-2300734/
+3. Aubergine and Tofu Curry: https://www.deliciousmagazine.co.uk/recipes/aubergine-and-tofu-curry/ - https://unsplash.com/photos/3DZTercmEF4
+4. Cheesy Baked Bagel Pudding: https://www.deliciousmagazine.co.uk/recipes/cheesy-baked-bagel-pudding/ - https://unsplash.com/photos/Vuvaw92UbsM
+5. Sticky Salted Caramel Apples: https://www.deliciousmagazine.co.uk/recipes/sticky-salted-caramel-apples/ - 
+
 
 **Website created by Jack Bennett.**
