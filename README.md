@@ -57,19 +57,19 @@ Recipe of the month link - image: https://www.food.com/recipe/beths-melt-in-your
 
 Links - Images used in the 'Expanding Your Cooking Knowledge' and 'General Cooking Tips' section:
 
-1. https://unsplash.com/photos/c6J2thg8k04 (Fried Chicken)
-2. 
-3. 
-4. 
-5. 
+1. Overripe Bananas: https://www.thekitchn.com/6-delicious-ways-to-use-up-overripe-bananas-223860 - https://unsplash.com/photos/4t0kofpmmnA
+2. Sourdough Starter: https://www.thekitchn.com/testing-sourdough-starter-for-baking-23020669 - https://unsplash.com/photos/tOYiQxF9-Ys
+3. Make a More Beautiful Cake: https://www.thekitchn.com/cake-tips-food-stylist-23016610 - https://unsplash.com/photos/kPxsqUGneXQ
+4. Difference Between Active Dry Yeast and Instant Yeast: https://www.thekitchn.com/whats-the-difference-between-active-dry-yeast-and-instant-yeast-54252 - https://unsplash.com/photos/-QyXCuVHwfE
+5. Defrosted Meat: https://www.thekitchn.com/easiest-marinade-frozen-meat-23005063 - https://unsplash.com/photos/DVRXFIH42d0
 
 Links - Images used in the 'Try a New Recipe Today' and 'Recipes in Demand' section:
 
-1. 
-2. 
-3. 
-4. 
-5. 
+1. Best Banana Bread: https://www.food.com/recipe/best-banana-bread-2886
+2. Bourbon Chicken: https://www.food.com/recipe/bourbon-chicken-45809
+3. Oatmeal Raisin Cookies: https://www.food.com/recipe/oatmeal-raisin-cookies-35813
+4. Creamy Cajun Chicken Pasta: https://www.food.com/recipe/creamy-cajun-chicken-pasta-39087
+5. Creamy Garlic Penne Pasta: https://www.food.com/recipe/creamy-garlic-penne-pasta-43023
 
 Links - Images used in the 'Tips For The Kitchen' section:
 

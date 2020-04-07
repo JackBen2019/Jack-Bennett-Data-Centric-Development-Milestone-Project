@@ -19,8 +19,8 @@
 	<header class="container-fluid">
 		<div style="margin-right: 0 !important;" class="row">
 			<div class="col-md-4 header-content">
-				<a href="#" class="navbar-brand website-logo"
-					target="_blank"><img alt="Jack Bennett's Cookbook Logo" class="website-logo" src="static/images/JB-Cookbook-Logo.png"></a>
+				<a href="{{ url_for('index') }}" class="navbar-brand website-logo">
+                <img alt="Jack Bennett's Cookbook Logo" class="website-logo" src="static/images/JB-Cookbook-Logo.png"></a>
 			</div>
 			<div class="col-md-8 header-content">
 				<nav class="navbar-expand-sm">
@@ -28,9 +28,6 @@
 						data-target="#collapse_target">Menu</a>
 					<div style="border: 0px !important;" class="collapse navbar-collapse" id="collapse_target">
 						<ul style="border: 0px !important;" class="navbar-nav nav-menu mx-auto ml-auto">
-							<li style="padding-left: 10px;" class="nav-item">
-								<a href="{{ url_for('index') }}" class="nav-link menu-item">Home</a>
-							</li>
 							<li style="padding-left: 10px;" class="nav-item">
 								<a href="{{ url_for('recipes') }}" class="nav-link menu-item">Recipes</a>
 							</li>
@@ -41,7 +38,7 @@
 								<a href="{{ url_for('contact') }}" class="nav-link menu-item">Contact</a>
 							</li>
                             <li style="padding-left: 10px;" class="nav-item">
-								<a href="{{ url_for('yourrecipes') }}" class="nav-link menu-item">Your Recipes</a>
+								<a href="{{ url_for('yourrecipes') }}" class="nav-link menu-item">Community Recipes</a>
 							</li>
 							<li style="padding-left: 10px;">
 								<form action="{{ url_for('upload') }}">
