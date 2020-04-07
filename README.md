@@ -73,11 +73,11 @@ Links - Images used in the 'Try a New Recipe Today' and 'Recipes in Demand' sect
 
 Links - Images used in the 'Tips For The Kitchen' section:
 
-1. https://unsplash.com/photos/c6J2thg8k04 (Fried Chicken)
-2. 
-3. 
-4. 
-5. 
+1. 9 Ways to Add Organization to Your Kitchen: https://www.thekitchn.com/organizing-tricks-that-dont-cost-money-23017717
+2. 3 Things You Should Stop Storing in the Fridge: https://www.thekitchn.com/things-stop-storing-fridge-23004435
+3. A Brilliant Way to Declutter Your Kitchen: https://www.thekitchn.com/kitchen-decluttering-tape-trick-23012562
+4. 7 Organizing Ideas to Steal from Galley Kitchens: https://www.thekitchn.com/galley-kitchen-organizing-ideas-23003926
+5. 10 of Amazon’s Bestselling Kitchen Organizers: https://www.thekitchn.com/bestselling-kitchen-organizers-amazon-23002821
 
 Links - Images used in the 'Vegetarian Recipes' section:
 
