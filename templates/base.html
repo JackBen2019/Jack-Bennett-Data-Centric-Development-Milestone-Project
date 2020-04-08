@@ -10,8 +10,7 @@
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
 		type="text/css" />
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css">
-	<script src="{{ url_for('static', filename='js/main.js') }}"></script>
-	<script src="https://kit.fontawesome.com/f17309d9a5.js" crossorigin="anonymous"></script>
+	
 	<title>Jack Bennett's Cookbook</title>
 </head>
 
@@ -20,7 +19,7 @@
 		<div style="margin-right: 0 !important;" class="row">
 			<div class="col-md-4 header-content">
 				<a href="{{ url_for('index') }}" class="navbar-brand website-logo">
-                <img alt="Jack Bennett's Cookbook Logo" class="website-logo" src="static/images/jb-cookbook-logo.png"></a>
+                <img alt="Jack Bennett's Cookbook Logo" class="website-logo" src="{{ url_for('static', filename='images/jb-cookbook-logo.png') }}"></a>
 			</div>
 			<div class="col-md-8 header-content">
 				<nav class="navbar-expand-sm">
@@ -115,9 +114,11 @@
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
 		integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
 	</script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script> -->
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
-
+    <script src="https://kit.fontawesome.com/f17309d9a5.js" crossorigin="anonymous"></script>
+    <script src="{{ url_for('static', filename='js/main.js') }}"></script>
+	
 	<script type="text/javascript">
   $(document).ready(function() {
     $('select').material_select();
