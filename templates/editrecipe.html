@@ -1,6 +1,6 @@
 {% extends 'base.html' %} {% block content %}
 
-<section class="container">
+<section style="padding-bottom: 15px;" class="container">
 	<h3 style="padding-top: 15px;">Edit Recipe</h3>
 	<div class="row">
 		<form action="{{url_for('update_recipe', recipe_id=recipe._id)}}" method="POST" class="col col-12">

@@ -1,6 +1,15 @@
 {% extends 'base.html' %}
 {% block content %}
-<section class="container-materialize">
+
+<section>
+	<div style="margin-right: 0 !important;" class="row">
+		<div style="padding-right: 0px !important;" class="col-12">
+			<p class="partners-heading">RECIPES FROM THE COMMUNITY</p>
+		</div>
+	</div>
+</section>
+
+<section style="padding-bottom: 15px; padding-top: 10px;" class="container-materialize">
 	<ul class="collapsible" data-collapsible="accordion">
 		{% for recipe in recipes %}
 		<li style="list-style-type: none !important;">
