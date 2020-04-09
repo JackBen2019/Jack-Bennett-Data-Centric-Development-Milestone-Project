@@ -5,11 +5,11 @@ var images = new Array();
 function preloadImages(){
     for (i=0; i < preloadImages.arguments.length; i++){
          images[i] = new Image();
-        images[i].src = preloadImages.arguments[i];
+        images[i].src = "static/images/"+preloadImages.arguments[i];
     }
 }
 
-preloadImages("JB-Cookbook-Logo.png", "banana_bread.jpg", "beautiful_cake.jpg", "best_selling_books.jpg", "bourbon_chicken.jpg", "caramel_apples.jpg", "cheesy_bagel.jpg", "chicken_pasta.jpg", "declutter_kitchen.jpg", "defrosted_meat.jpg", "falafel.jpg", "galley_kitchen.jpg", "garlic_pasta.jpg", "organise_kitchen.jpg", "overripe_bananas.jpg", "raisin_cookies.jpg", "sourdough_starter.jpg", 
+preloadImages("jb-cookbook-logo.png", "banana_bread.jpg", "beautiful_cake.jpg", "best_selling_books.jpg", "bourbon_chicken.jpg", "caramel_apples.jpg", "cheesy_bagel.jpg", "chicken_pasta.jpg", "declutter_kitchen.jpg", "defrosted_meat.jpg", "falafel.jpg", "galley_kitchen.jpg", "garlic_pasta.jpg", "organise_kitchen.jpg", "overripe_bananas.jpg", "raisin_cookies.jpg", "sourdough_starter.jpg", 
 "stop_storing_fridge.jpg", "tofu_curry.jpg", "vegetable_stew.jpg", "xl-bbq-ribs.jpg", "yeast.jpg");
 
 // Search Bar - Code assisted by W3 Schools
