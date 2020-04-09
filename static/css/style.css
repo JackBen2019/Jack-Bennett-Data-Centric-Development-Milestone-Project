@@ -369,6 +369,11 @@ button[type="submit"] {
     background-color: #08d10c !important;
 }
 
+.menu-anchor {
+    color: #fff;
+    cursor: pointer;
+}
+
 .btn-outline-success {
     color: #28a745;
     border-color: #08d10c !important;
@@ -597,6 +602,11 @@ button[type="submit"]:hover {
 }
 }
 
+.download-section-container {
+    background-color: #2e2e2e !important;
+    padding-top: 10px;
+}
+
 .footer-padding {
     padding-top: 20px;
 }
@@ -624,6 +634,11 @@ button[type="submit"]:hover {
 }
 
 /* ------ Footer / Social Media ------ */
+
+.social-media-container {
+    background-color: #333 !important;
+    margin-right: 0 !important;
+}
 
 .facebook-footer i {
     font-size: 33px;
