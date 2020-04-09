@@ -370,7 +370,7 @@ button[type="submit"] {
 }
 
 .menu-anchor {
-    color: #fff;
+    color: #fff !important;
     cursor: pointer;
 }
 
